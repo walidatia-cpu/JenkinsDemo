@@ -7,6 +7,53 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="obj\Debug\net6.0\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\net6.0\JenkinsDemo.AssemblyInfo.cs" />
+    <Compile Include="obj\Debug\net6.0\JenkinsDemo.GlobalUsings.g.cs" />
+    <Compile Include="obj\Debug\net6.0\JenkinsDemo.MvcApplicationPartsAssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\net6.0\appsettings.Development.json" />
+    <Content Include="bin\Debug\net6.0\appsettings.json" />
+    <Content Include="bin\Debug\net6.0\JenkinsDemo.deps.json" />
+    <Content Include="bin\Debug\net6.0\JenkinsDemo.runtimeconfig.json" />
+    <Content Include="obj\Debug\net6.0\JenkinsDemo.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\net6.0\staticwebassets.build.json" />
+    <Content Include="obj\JenkinsDemo.csproj.nuget.dgspec.json" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\net6.0\JenkinsDemo.dll" />
+    <None Include="bin\Debug\net6.0\JenkinsDemo.exe" />
+    <None Include="bin\Debug\net6.0\JenkinsDemo.pdb" />
+    <None Include="bin\Debug\net6.0\Microsoft.OpenApi.dll" />
+    <None Include="bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll" />
+    <None Include="bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll" />
+    <None Include="bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll" />
+    <None Include="obj\Debug\net6.0\apphost.exe" />
+    <None Include="obj\Debug\net6.0\JenkinsDemo.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\net6.0\JenkinsDemo.assets.cache" />
+    <None Include="obj\Debug\net6.0\JenkinsDemo.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\net6.0\JenkinsDemo.csproj.CopyComplete" />
+    <None Include="obj\Debug\net6.0\JenkinsDemo.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\net6.0\JenkinsDemo.dll" />
+    <None Include="obj\Debug\net6.0\JenkinsDemo.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\net6.0\JenkinsDemo.genruntimeconfig.cache" />
+    <None Include="obj\Debug\net6.0\JenkinsDemo.MvcApplicationPartsAssemblyInfo.cache" />
+    <None Include="obj\Debug\net6.0\JenkinsDemo.pdb" />
+    <None Include="obj\Debug\net6.0\refint\JenkinsDemo.dll" />
+    <None Include="obj\Debug\net6.0\ref\JenkinsDemo.dll" />
+    <None Include="obj\Debug\net6.0\staticwebassets\msbuild.build.JenkinsDemo.props" />
+    <None Include="obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.JenkinsDemo.props" />
+    <None Include="obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.JenkinsDemo.props" />
+    <None Include="obj\JenkinsDemo.csproj.nuget.g.props" />
+    <None Include="obj\JenkinsDemo.csproj.nuget.g.targets" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
   </ItemGroup>
 
