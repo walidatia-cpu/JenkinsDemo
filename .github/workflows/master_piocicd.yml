@@ -39,7 +39,7 @@ jobs:
     needs: build
     environment:
       name: 'Production'
-      url: ${{ https://piocicd.azurewebsites.net }}
+      url: ${{ piocicd.azurewebsites.net }}
     
     steps:
       - name: Download artifact from build job
