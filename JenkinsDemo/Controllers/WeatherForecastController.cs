@@ -8,7 +8,7 @@ namespace JenkinsDemo.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-        "test1", "test2", "Chilly", 
+        "test1", "test2", "Chilly","alid" 
     };
 
         private readonly ILogger<WeatherForecastController> _logger;
