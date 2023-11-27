@@ -54,4 +54,4 @@ jobs:
           app-name: 'PioCICD'
           slot-name: 'Production'
           package: .
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_4D5CF1874647439988A375939117391D }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DCFE1730D9504C699D48A3EF8DABF824 }}
